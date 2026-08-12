@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TWIN DESIGN — Pakistani Fashion, Redefined</title>
+<meta name="description" content="TWIN DESIGN — premium Pakistani men's and women's clothing. Pure Boski, Pure Cotton, Lawn and 3-piece suits for every occasion.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<div class="announcement">Complimentary Delivery on Orders Above Rs. 5,000</div>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header">
+  <div class="header-inner">
+    <button class="hamburger" data-hamburger aria-label="Open menu"><span></span><span></span><span></span></button>
+    <a href="index.html" class="logo"><img class="logo-img" src="images/logo/logo-dark.png" alt="Twin Design"></a>
+    <nav class="main-nav">
+      <a href="shop.html?category=New">New Arrivals</a>
+      <a href="men.html">Men</a>
+      <a href="women.html">Women</a>
+      <a href="shop.html">Collections</a>
+      <a href="shop.html?sale=1">Sale</a>
+      <a href="about.html">About</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" data-search-trigger aria-label="Search">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      </button>
+      <a href="wishlist.html" class="icon-btn" aria-label="Wishlist">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><path d="M12 21s-7.5-4.9-10-9.3C.3 8 2 4 6 4c2.2 0 3.7 1.2 6 3.8C14.3 5.2 15.8 4 18 4c4 0 5.7 4 4 7.7C19.5 16.1 12 21 12 21z"/></svg>
+        <span class="badge" data-wishlist-count style="display:none">0</span>
+      </a>
+      <a href="cart.html" class="icon-btn" data-cart-trigger="drawer" aria-label="Shopping bag">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><path d="M6 7h12l1 13H5L6 7z"/><path d="M9 10V6a3 3 0 016 0v4"/></svg>
+        <span class="badge" data-cart-count style="display:none">0</span>
+      </a>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile Drawer -->
+<div class="drawer-overlay" data-drawer-overlay></div>
+<div class="mobile-drawer" data-mobile-drawer>
+  <div class="drawer-top">
+    <a href="index.html" class="logo"><img class="logo-img" src="images/logo/logo-dark.png" alt="Twin Design"></a>
+    <button data-drawer-close aria-label="Close menu">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+  <nav>
+    <a href="shop.html?category=New">New Arrivals</a>
+    <a href="men.html">Men</a>
+    <a href="women.html">Women</a>
+    <a href="shop.html">Collections</a>
+    <a href="shop.html?sale=1">Sale</a>
+    <a href="about.html">About</a>
+  </nav>
+  <div class="drawer-sub">
+    <a href="wishlist.html">Wishlist</a>
+    <a href="cart.html">Shopping Bag</a>
+    <a href="contact.html">Contact</a>
+    <a href="faq.html">FAQ</a>
+  </div>
+</div>
+
+<!-- Search Flyout -->
+<div class="search-flyout" data-search-flyout>
+  <div class="search-box">
+    <button class="icon-btn search-close" data-search-close aria-label="Close search">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <input type="text" placeholder="Search products, fabrics, collections…" data-search-input>
+    <div class="search-suggestions" data-search-results></div>
+  </div>
+</div>
+
+<!-- Cart Drawer -->
+<div class="drawer-overlay" data-cart-overlay></div>
+<div class="cart-drawer" data-cart-drawer>
+  <div class="cart-drawer-head">
+    <h3 style="font-size:18px;">Your Bag</h3>
+    <button data-cart-close aria-label="Close bag">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+  <div class="cart-drawer-items" data-mini-cart-items></div>
+  <div class="cart-drawer-foot">
+    <div class="summary-row total"><span>Subtotal</span><span data-mini-cart-subtotal>Rs. 0</span></div>
+    <button type="button" class="btn btn-whatsapp btn-block" data-whatsapp-order>
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 6.32A7.85 7.85 0 0012.05 4a7.94 7.94 0 00-6.87 11.88L4 20l4.24-1.11a7.9 7.9 0 003.8.97h.01a7.94 7.94 0 007.94-7.94 7.86 7.86 0 00-2.39-5.6zm-5.55 12.2a6.6 6.6 0 01-3.36-.92l-.24-.14-2.5.66.67-2.44-.16-.25a6.6 6.6 0 01-1.02-3.51 6.61 6.61 0 1111.61 4.35 6.55 6.55 0 01-5 2.25zm3.62-4.94c-.2-.1-1.17-.58-1.35-.64-.18-.07-.31-.1-.45.1-.13.2-.51.64-.62.77-.12.13-.23.15-.42.05a5.4 5.4 0 01-1.6-.98 6 6 0 01-1.1-1.37c-.12-.2 0-.3.09-.4.09-.1.2-.24.3-.36.1-.12.13-.2.2-.34.06-.13.03-.25-.02-.35-.05-.1-.45-1.08-.61-1.48-.16-.38-.33-.33-.45-.34h-.38c-.13 0-.34.05-.52.25-.18.2-.68.66-.68 1.6 0 .95.7 1.87.79 2 .1.13 1.37 2.09 3.32 2.93.46.2.83.32 1.11.41.47.15.9.13 1.24.08.38-.06 1.17-.48 1.33-.94.16-.46.16-.86.11-.94-.05-.09-.18-.14-.38-.24z"/></svg>
+      Order on WhatsApp
+    </button>
+    <a href="checkout.html" class="btn btn-primary btn-block">Checkout</a>
+    <a href="cart.html" class="btn btn-outline btn-block">View Bag</a>
+  </div>
+</div>
+
+<!-- Quick View Modal -->
+<div class="modal-overlay quickview-modal" data-quickview-modal>
+  <div class="modal-box">
+    <button class="modal-close" data-modal-close aria-label="Close">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <div class="quickview-body" data-qv-body></div>
+  </div>
+</div>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero-media"><img src="images/hero/hero-main.jpg" alt="Model wearing TWIN DESIGN autumn collection"></div>
+    <div class="hero-content">
+      <p class="eyebrow">Twin Design — Autumn Edit</p>
+      <h1 class="hero-title">Timeless Style.<br>Modern Elegance.</h1>
+      <p class="hero-text">Discover thoughtfully selected Pakistani fashion designed for every occasion — from Pure Boski to hand-finished lawn.</p>
+      <div class="hero-actions">
+        <a href="women.html" class="btn btn-light">Shop Women</a>
+        <a href="men.html" class="btn btn-ghost">Shop Men</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BRAND INTRO ============ -->
+  <section class="intro-section">
+    <div class="container-narrow">
+      <p class="eyebrow reveal">Our Philosophy</p>
+      <h2 class="section-heading reveal">A Collection Made to Be Remembered</h2>
+      <p class="reveal">Every piece at Twin Design begins with the fabric — pure Boski, breathable cotton, and hand-selected lawn — before it is cut and finished with a quiet attention to detail. We build modern silhouettes on a foundation of traditional Pakistani craftsmanship, so each suit feels as considered as it looks.</p>
+    </div>
+  </section>
+
+  <!-- ============ SHOP BY CATEGORY ============ -->
+  <section>
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Shop by Category</p>
+        <h2 class="section-heading">Find Your Fit</h2>
+      </div>
+      <div class="category-groups">
+        <a href="men.html" class="category-card reveal">
+          <img src="images/men/cat-boski.jpg" alt="Men's collection">
+          <div class="category-overlay">
+            <p class="eyebrow">For Him</p>
+            <h3>Men</h3>
+            <div class="category-list"><span>Pure Boski</span><span>Pure Cotton</span><span>Men's Suits</span></div>
+          </div>
+        </a>
+        <a href="women.html" class="category-card reveal">
+          <img src="images/women/cat-lawn.jpg" alt="Women's collection">
+          <div class="category-overlay">
+            <p class="eyebrow">For Her</p>
+            <h3>Women</h3>
+            <div class="category-list"><span>Summer Suits</span><span>Cotton Suits</span><span>Lawn</span><span>3 Piece Suits</span></div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ THE EDIT (Featured) ============ -->
+  <section>
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Featured</p>
+        <h2 class="section-heading">The Edit</h2>
+        <p class="section-sub">A curated selection of our most-loved pieces this season.</p>
+      </div>
+      <div class="products-grid reveal-stagger" data-static-grid="featured"></div>
+    </div>
+  </section>
+
+  <!-- ============ EDITORIAL BANNER ============ -->
+  <section class="editorial-banner">
+    <img src="images/banners/editorial-campaign.jpg" alt="Twin Design campaign">
+    <div class="editorial-banner-content reveal">
+      <h2>Designed for Every Occasion</h2>
+      <p>From everyday elegance to celebrations worth remembering.</p>
+      <a href="shop.html" class="btn btn-light">Explore the Collection</a>
+    </div>
+  </section>
+
+  <!-- ============ NEW ARRIVALS ============ -->
+  <section>
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Just In</p>
+        <h2 class="section-heading">New Arrivals</h2>
+      </div>
+      <div class="arrivals-scroll" data-static-grid="new"></div>
+    </div>
+  </section>
+
+  <!-- ============ SEASONAL SALE ============ -->
+  <section class="sale-section">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Limited Time</p>
+        <h2 class="section-heading">The Seasonal Edit</h2>
+        <p class="section-sub">Selected pieces, thoughtfully priced for a limited time.</p>
+      </div>
+      <div class="products-grid reveal-stagger" data-static-grid="sale"></div>
+      <div style="text-align:center;margin-top:48px;">
+        <a href="shop.html?sale=1" class="btn btn-ghost">Shop Sale</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BRAND STORY ============ -->
+  <section>
+    <div class="container story-section">
+      <div class="story-media reveal">
+        <img src="images/banners/about-story.jpg" alt="Pakistani craftsmanship">
+      </div>
+      <div class="story-text reveal">
+        <p class="eyebrow">Our Story</p>
+        <h2 class="section-heading" style="margin-bottom:20px;">The Art of Pakistani Dressing</h2>
+        <p>Twin Design was built around a simple idea: that everyday Pakistani clothing deserves the same care as occasion wear. We work closely with our fabric sources to select pure Boski and cotton that hold their shape and color, then finish each suit with clean stitching and considered detail.</p>
+        <p>Our approach stays close to tradition — Boski, lawn, and cotton in their honest forms — while the silhouettes and styling are built for how our customers actually dress today, at home and abroad.</p>
+        <a href="about.html" class="link-underline">Read our full story →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TRUST SECTION ============ -->
+  <section style="background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line);">
+    <div class="container">
+      <div class="trust-grid">
+        <div class="trust-item reveal">
+          <svg class="trust-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M12 2l3 6 7 1-5 5 1.5 7-6.5-3.5L5 21l1.5-7-5-5 7-1 3.5-6z"/></svg>
+          <h4>Quality Fabrics</h4><p>Pure Boski, pure cotton and hand-selected lawn, sourced with care.</p>
+        </div>
+        <div class="trust-item reveal">
+          <svg class="trust-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M4 21v-7a8 8 0 0116 0v7M4 21h16M9 21v-4h6v4"/></svg>
+          <h4>Carefully Selected Designs</h4><p>Every piece is chosen for enduring style, not passing trends.</p>
+        </div>
+        <div class="trust-item reveal">
+          <svg class="trust-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M12 2l8 4v6c0 5-3.4 8.7-8 10-4.6-1.3-8-5-8-10V6l8-4z"/></svg>
+          <h4>Secure Shopping</h4><p>A checkout experience built with your information in mind.</p>
+        </div>
+        <div class="trust-item reveal">
+          <svg class="trust-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M3 7h13v10H3zM16 10h3l2 3v4h-5z"/><circle cx="7.5" cy="18.5" r="1.5"/><circle cx="18" cy="18.5" r="1.5"/></svg>
+          <h4>Reliable Delivery</h4><p>Complimentary delivery nationwide on orders above Rs. 5,000.</p>
+        </div>
+        <div class="trust-item reveal">
+          <svg class="trust-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M4 4l16 16M4 20L20 4"/><path d="M9 4H4v5M15 20h5v-5"/></svg>
+          <h4>Easy Exchange</h4><p>A straightforward exchange process if a fit isn't quite right.</p>
+        </div>
+        <div class="trust-item reveal">
+          <svg class="trust-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M21 11.5a8.4 8.4 0 01-8.9 8.4 8.6 8.6 0 01-3.9-1L3 20l1.2-5.2a8.4 8.4 0 1116.8-3.3z"/></svg>
+          <h4>Customer Support</h4><p>Reach us directly by WhatsApp, phone or email — we're glad to help.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ REVIEWS ============ -->
+  <section>
+    <div class="container">
+      <div class="section-head center reveal">
+        <p class="eyebrow">In Their Words</p>
+        <h2 class="section-heading">What Our Customers Say</h2>
+      </div>
+      <div class="reviews-grid" data-reviews-grid></div>
+    </div>
+  </section>
+
+  <!-- ============ NEWSLETTER ============ -->
+  <section class="newsletter-section">
+    <div class="container-narrow reveal">
+      <p class="eyebrow">Stay Connected</p>
+      <h2 class="section-heading">Be the First to Discover What's New</h2>
+      <form class="newsletter-form" data-newsletter-form>
+        <label class="visually-hidden" for="nl-email">Email address</label>
+        <input type="email" id="nl-email" placeholder="Your email address" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><img class="logo-img" src="images/logo/logo-light.png" alt="Twin Design"></a>
+        <p>Premium Pakistani men's and women's clothing — Pure Boski, Pure Cotton, lawn and 3-piece suits, made for everyday elegance.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M14 9h3V6h-3a4 4 0 00-4 4v2H7v3h3v6h3v-6h3l1-3h-4v-2a1 1 0 011-1z"/></svg></a>
+          <a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M15 3v10.5a3.5 3.5 0 11-3-3.46"/><path d="M15 7a4 4 0 004 4"/></svg></a>
+          <a href="#" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M21 11.5a8.4 8.4 0 01-8.9 8.4 8.6 8.6 0 01-3.9-1L3 20l1.2-5.2a8.4 8.4 0 1116.8-3.3z"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <a href="men.html">Men</a>
+        <a href="women.html">Women</a>
+        <a href="shop.html?category=New">New Arrivals</a>
+        <a href="shop.html?sale=1">Sale</a>
+      </div>
+      <div class="footer-col">
+        <h4>Help</h4>
+        <a href="contact.html">Contact</a>
+        <a href="faq.html">FAQ</a>
+        <a href="faq.html#shipping">Shipping</a>
+        <a href="faq.html#returns">Returns</a>
+        <a href="product.html">Size Guide</a>
+      </div>
+      <div class="footer-col footer-newsletter">
+        <h4>Newsletter</h4>
+        <p style="margin-bottom:0;">Be the first to discover what's new.</p>
+        <form data-newsletter-form>
+          <label class="visually-hidden" for="footer-email">Email address</label>
+          <input type="email" id="footer-email" placeholder="Email address" required>
+          <button type="submit">Join</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Twin Design. All rights reserved.</span>
+      <div style="display:flex;gap:20px;">
+        <a href="about.html">Privacy</a>
+        <a href="about.html">Terms</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>window.IMG_BASE = "images";</script>
+<script src="js/script.js"></script>
+</body>
+</html>
